@@ -1,0 +1,12 @@
+###GET ALL
+GET http://localhost:3000/cars
+
+###CREATE NEW CAR
+POST http://localhost:3000/cars
+Content-Type: application/json
+
+{
+    "title": "clown car",
+    "price": 10,
+    "stocklevel": 0
+}
